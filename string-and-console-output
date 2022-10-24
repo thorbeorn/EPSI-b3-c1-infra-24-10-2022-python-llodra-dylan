@@ -1,1 +1,40 @@
+1 : brian = "Hello life!"
 
+2 : caesar = "Graham"
+praline = "John"
+viking = "Teresa"
+
+3 : 'This isn\'t flying, this is falling with style!'
+
+4 : fifth_letter = "MONTY"[4]
+
+5 : parrot = "Norwegian Blue"
+print len(parrot)
+
+6 : print parrot.lower()
+
+7 : print parrot.upper()
+
+8 : pi = 3.14
+print str(pi)
+
+9 : print len(ministry)
+print ministry.upper()
+
+10 : print "Monty Python"
+
+11 : the_machine_goes = "Ping!"
+print the_machine_goes
+
+12 : print("Spam " + "and " + "eggs")
+
+13 : print "The value of pi is around " + str(3.14)
+
+14 : print "Let's not go to %s. 'Tis a silly %s." % (string_1, string_2)
+
+15 : print "Ah, so your name is %s, your quest is %s, " \
+"and your favorite color is %s." % (name, quest, color)
+
+16 : my_string = "toto"
+print(len(my_string))
+print(my_string.upper())
