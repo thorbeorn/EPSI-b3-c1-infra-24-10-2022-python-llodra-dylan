@@ -1,1 +1,103 @@
+LESSON 1
 
+1 : zoo_animals = ["pangolin", "cassowary", "sloth", "dog"];
+
+2 : print numbers[1] + numbers[3]
+
+3 : zoo_animals[3] = "dog"
+
+4 : suitcase.append("A")
+suitcase.append("B")
+suitcase.append("C")
+
+list_length = len(suitcase) # Set this to the length of suitcase
+
+5 : # The first and second items (index zero and one)
+first = suitcase[0:2]
+
+# Third and fourth items (index two and three)
+middle = suitcase[2:4]
+
+# The last two items (index four and five)
+last =  suitcase[4:6]
+
+6 : dog = animals[3:6]
+
+# From the seventh character to the end
+frog = animals[6:]
+
+7 : duck_index = animals.index("duck")
+animals.insert(duck_index, "cobra")
+
+8 : for number in my_list:
+  print (2*number)
+ 
+9 : for l in start_list:
+  square_list.append(l ** 2)
+
+
+
+print square_list.sort()
+
+10 : print residents['Sloth']
+print residents['Burmese Python']
+
+11 : menu['A'] = 2
+menu['B'] = 2
+menu['C'] = 2
+
+12 : del zoo_animals['Sloth']
+del zoo_animals['Bengal Tiger']
+zoo_animals['Rockhopper Penguin'] = "other"
+
+13 : backpack.remove("dagger")
+
+14 : inventory["pocket"] = ['seashell', 'strange berry', 'lint']
+inventory['backpack'].sort()
+inventory['backpack'].remove('dagger')
+inventory['gold'] += 50
+
+LESSON 2
+
+1 : for name in names:
+  print name
+  
+2 : for key in webster:
+  print webster[key]
+  
+3 : for b in a:
+  if b%2 == 0:
+    print b
+    
+4 : def fizz_count(x):
+  count = 0
+  for item in x:
+    if item == "fizz":
+      count += 1
+  return count
+fizz_count(["fizz","cat","fizz"])
+
+5 : .. 
+
+6 : prices = {"banana": 4, "apple": 2, "orange": 1.5, "pear": 3}
+
+7 : stock = {"banana": 6, "apple": 0, "orange": 32, "pear": 15}
+
+8 : prices = {"banana": 4, "apple": 2, "orange": 1.5, "pear": 3}
+
+stock = {"banana": 6, "apple": 0, "orange": 32, "pear": 15}
+
+for item in prices:
+  print item
+  print("price: " + str(prices[item]))
+  print("stock: " + str(stock[item]))
+  
+9 : total = 0
+for key in prices:
+  print key
+  print "price: %s" % prices[key]
+  print "stock: %s" % stock[key]
+
+  total += prices[key] * stock[key]
+
+print total
