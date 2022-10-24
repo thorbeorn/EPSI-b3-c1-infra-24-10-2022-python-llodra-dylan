@@ -17,4 +17,58 @@ power(37, 4)  # Add your arguments here!
 5 : def deserves_another(n):
   return one_good_turn(n) + 2
   
-6 : 
+6 : def cube(n):
+  return n**3
+
+def by_three(number):
+  if number%3 == 0:
+    return cube(number)
+  else:
+    return False
+ 
+7 : import this
+# Ask Python to print sqrt(25) on line 3.
+
+print sqrt(25)
+
+8 : import math
+
+print math.sqrt(25)
+
+9 : from math import sqrt
+
+10 : from math import *
+
+11 : .. 
+
+12 : .. 
+
+13 : maximum = max(3,4,5)
+
+14 : minimum = min(1,2,3)
+
+15 : absolute = abs(-42)
+
+16 : print(type(0))
+print(type(3.5))
+print(type("str"))
+
+17 : def shut_down(s):
+  if s == "yes":
+    return "Shutting down"
+  elif s == "no":
+    return "Shutdown aborted"
+  else:
+    return "Sorry"
+  
+18 : from math import *
+
+print(sqrt(13689))
+
+19 : def distance_from_zero(n):
+  if type(n) == int or type(n) == float:
+    return abs(n)
+  else:
+    return "Nope"
+    
+ LESSON 2
